@@ -13,3 +13,5 @@ services:
       context: ./ops/docker/php
     volumes:
       - ./web:/var/www/html
+    ports:
+      - 9000:9000
